@@ -13,7 +13,11 @@
     </select>
   </div>
 
-  <div class="table-area">
+  <div *ngIf="comments.length<=0">
+    Loading...
+  </div>
+
+  <div *ngIf="comments.length>0" class="table-area">
     <table class="data-table">
       <thead>
         <tr>
