@@ -1,0 +1,45 @@
+.main-div {
+    width: 95%;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .input-area {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .input-field {
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .table-area {
+    margin-top: 2rem;
+    border: 1px solid white;
+  }
+  
+  .data-table {
+    width: 100%;
+  }
+  
+  .data-table thead tr th {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .data-table tbody tr {
+    background-color: #c7f2d2;
+  }
+  
+  td {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center
+  }
+  
+  .pagination-area{
+    float: right;
+  }
