@@ -68,4 +68,11 @@ export class HomeComponent {
     this.currentPage = page;
     this.paginate();
   }
+
+  changePerPageChange(event: Event): void {
+    const value = parseInt((event.target as HTMLSelectElement).value,10);
+    this.itemsPerPage = value == -1 ? this.comments.length : value;
+    this.currentPage = 1; 
+    this.paginate();
+  }
 }
